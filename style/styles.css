@@ -1,0 +1,34 @@
+/* Membuat tabel lebih menarik */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc; /* Menambahkan border ke seluruh tabel */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Memberikan ruang di dalam sel */
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Memperindah gambar */
+img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 250%; /* Membuat gambar menjadi bulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan lembut pada gambar */
+}
+
+/* Efek hover untuk gambar */
+img:hover {
+    transform: scale(1.1); /* Memperbesar gambar ketika dihover */
+}
+
+/* Efek hover untuk sel */
+td:hover {
+    background-color: #f9f9f9; /* Mengubah warna latar belakang sel ketika dihover */
+}
